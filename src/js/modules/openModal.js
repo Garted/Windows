@@ -31,11 +31,11 @@ const modals = () => {
       }
     });
 
-    setTimeout(() => {
-      document.querySelector(".popup").style.display = "block";
-      // document.body.style.overflow = "hidden";
-      document.body.classList.add("modal-open");
-    }, 3000);
+    // setTimeout(() => {
+    //   document.querySelector(".popup").style.display = "block";
+    //   // document.body.style.overflow = "hidden";
+    //   document.body.classList.add("modal-open");
+    // }, 6000);
   }
   modal(
     ".popup_engineer_btn",
@@ -44,5 +44,4 @@ const modals = () => {
   );
   modal(".phone_link", ".popup", ".popup .popup_close");
 };
-
 export default modals;
